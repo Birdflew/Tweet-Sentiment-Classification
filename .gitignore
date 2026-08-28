@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face caches / datasets / checkpoints
+.cache/
+huggingface/
+*.safetensors
+pytorch_model.bin
+pytorch_model.bin.index.json
+checkpoint-*/
+runs/
+
+# Keep the small training config
+!training_args.bin
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
